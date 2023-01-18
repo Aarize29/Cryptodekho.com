@@ -25,8 +25,6 @@ const Coins = () => {
   };
   
   const navigate = useNavigate()
-     
-
     useEffect(() => {
         onAuthStateChanged(auth, (user) => {
             if (!user) {
