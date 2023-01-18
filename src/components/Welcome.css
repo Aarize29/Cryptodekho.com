@@ -1,0 +1,105 @@
+
+.welcome{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgb(190, 180, 180);
+}
+.welcome .login-register-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: fit-content;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    margin-top: 20px;
+    height: 50vh;
+    
+    
+}
+.welcome .login-register-container .signInPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 4px;
+
+
+}
+.welcome .login-register-container .signInPage input{
+    width: 100%;
+    margin: 8px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+}
+.welcome .login-register-container .signInPage .buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+}
+.welcome .login-register-container .signInPage .buttons button{
+     border: none;
+     border-radius: 5px;
+     font-size: 16px;
+     margin: 5px;
+     background-color: rgb(57, 57, 61);
+     cursor: pointer;
+     color: white;
+}
+.welcome .login-register-container .signInPage .buttons button:hover{
+    background-color: rgb(161, 152, 152);
+    color: black;
+}
+.welcome .login-register-container .loginPage input{
+    width: 100%;
+    margin: 4px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.welcome .login-register-container .loginPage  button{
+     border: none;
+     border-radius: 5px;
+     font-size: 16px;
+     margin: 5px;
+     background-color: rgb(57, 57, 61);
+     cursor: pointer;
+     color: white;
+}
+.welcome .login-register-container .loginPage  button:hover{
+    background-color: rgb(161, 152, 152);
+    color: black;
+}
+.googleAuth{
+    border: 2px solid black;
+    font-size: 15px;
+    color: #333;
+    background-color: rgb(230, 255, 6);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.googleAuth:hover{
+    background-color: rgb(255, 255, 255);
+}
+.welcome .login-register-container .loginPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+
+}
