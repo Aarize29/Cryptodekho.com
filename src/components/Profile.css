@@ -1,0 +1,49 @@
+.gradient-custom {
+    background: rgb(161,35,218);
+background: linear-gradient(6deg, rgba(161,35,218,1) 0%, rgba(238,211,181,1) 100%);
+    }
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  cursor: pointer;
+}
+.updateSection form{
+    display: flex;
+    justify-content:space-between
+}
+.updateSection .updateInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: 20px;
+    margin-top: 5vh;
+    margin-left: 5vh;
+   
+}
+.updateSection .updateInfo input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-bottom: 2px solid #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    outline: none;
+    
+}
+.updateSection .updateImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: 20px;
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+
